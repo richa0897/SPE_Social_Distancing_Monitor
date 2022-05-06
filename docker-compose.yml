@@ -1,4 +1,4 @@
-version: '2.1.6.0'
+version: '3.3'
 services:  
   app:
     image: richavarma/mlops_repo:latest

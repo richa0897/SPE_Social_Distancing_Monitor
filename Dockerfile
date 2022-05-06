@@ -19,6 +19,7 @@ COPY requirements.txt /app
 COPY app.py /app
 COPY main.py /app
 COPY run.sh /app
+RUN chmod a+x /app/run.sh
 COPY _config.yml /app
 COPY social_distance_det.py /app
 COPY templates /app/templates

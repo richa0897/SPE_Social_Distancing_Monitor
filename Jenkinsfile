@@ -38,7 +38,7 @@ pipeline {
     
     stage('Deploy using Ansible'){
             steps{
-                ansiblePlaybook becomeUser: yes, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'p2.yml', sudoUser: null
+                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'p2.yml', sudoUser: null
             }
         }
       

@@ -12,7 +12,7 @@ EXPOSE 5002
 WORKDIR /app
 
 RUN wget https://pjreddie.com/media/files/yolov3.weights
-RUN cp yolov3.weights /app/yolo_coco
+
 
 # Install any needed packages specified in requirements.txt
 COPY requirements.txt /app
@@ -25,6 +25,7 @@ COPY static /app/static
 COPY yolo-coco /app/yolo-coco
 COPY Args_Folder /app/Args_Folder
 RUN pip install -r requirements.txt
+RUN cp yolov3.weights /app/yolo-coco/
 
 # Run app.py when the container launches
 CMD ["./run.sh"]

@@ -142,5 +142,5 @@ def graph():
 	return render_template('dashboard.html')
 
 
-if __name__ == "__main__":
-    app.run(port=5002,debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',debug=True)

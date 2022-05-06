@@ -1,0 +1,18 @@
+version: '2'
+services:  
+  app:
+    image: richavarma/mlops_repo:latest
+    build: ./app
+    links:
+      - db
+    ports:
+      - "5002:5002"
+  
+  db:
+    image: mysql:5.7
+    ports:
+      - "32000:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/:ro

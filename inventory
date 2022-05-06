@@ -1,0 +1,2 @@
+localhost 172.16.145.29 ansible_ssh_user=richa ansible_ssh_pass=infear
+

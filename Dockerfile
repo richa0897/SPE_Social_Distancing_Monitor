@@ -18,6 +18,7 @@ RUN wget https://pjreddie.com/media/files/yolov3.weights
 COPY requirements.txt /app
 COPY app.py /app
 COPY main.py /app
+COPY run.sh /app
 COPY _config.yml /app
 COPY social_distance_det.py /app
 COPY templates /app/templates

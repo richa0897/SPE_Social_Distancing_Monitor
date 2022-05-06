@@ -18,6 +18,7 @@ RUN cp yolov3.weights /app/yolo_coco
 COPY requirements.txt /app
 COPY app.py /app
 COPY main.py /app
+COPY _config.yml /app
 COPY social_distance_det.py /app
 COPY templates /app/templates
 COPY static /app/static

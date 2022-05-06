@@ -2,7 +2,6 @@ version: '2'
 services:  
   app:
     image: richavarma/mlops_repo:latest
-    build: ./app
     links:
       - db
     ports:

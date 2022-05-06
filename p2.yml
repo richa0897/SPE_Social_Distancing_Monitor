@@ -5,4 +5,4 @@
     - name: Copy jar file to home directory
       copy:
         src: docker-compose.yml
-        dest: ~/
+        dest: /home/richa/Desktop/

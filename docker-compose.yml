@@ -10,10 +10,11 @@ services:
       - db
     ports:
       - "5002:5002"
+  
   db:
     image: mysql:5.7
     ports:
-      - "32001:3306"
+      - "3200:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:

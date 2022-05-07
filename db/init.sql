@@ -1,5 +1,5 @@
-#show databases;
 create database spe_proj;
+
 use spe_proj;
 
 create table admins(

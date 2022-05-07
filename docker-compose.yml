@@ -1,9 +1,11 @@
 version: '3.3'
 services:  
   app:
-    stdin_open: true
-    tty: true
     image: richavarma/mlops_repo:latest
+    command: >
+      sh -c "python app.py wait_for_db &&
+             python social_distance_det.py &&
+             python main.py runserver 0.0.0.0:5002"
     links:
       - db
     ports:

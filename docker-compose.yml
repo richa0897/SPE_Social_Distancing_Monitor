@@ -6,6 +6,11 @@ services:
       sh -c "python app.py wait_for_mysqldb &&
              python social_distance_det.py &&
              python main.py"
+    environment:
+      - DISPLAY=:0
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    network_mode: host
     depends_on:
       - mysqldb
     ports:

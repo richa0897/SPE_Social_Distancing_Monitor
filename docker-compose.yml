@@ -8,6 +8,11 @@ services:
              python main.py"
     environment:
       - DISPLAY=:0
+<<<<<<< HEAD
+=======
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+>>>>>>> d545dafa1a63b6dfa6054a77f2c09e5cc59ebf37
     depends_on:
       - mysqldb
     ports:

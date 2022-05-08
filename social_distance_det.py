@@ -11,6 +11,7 @@ import cv2
 import os
 from app import app
 from datetime import datetime
+os.environ['DISPLAY'] = ':0'
 # %%
 
 def add_to_db(viol_frame):

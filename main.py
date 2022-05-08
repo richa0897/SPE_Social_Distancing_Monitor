@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import logging
 
-logging.basicConfig(filename='sdm_logfile.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s : %(message)s')
+logging.basicConfig(filename='sdm_logfile.log', level=logging.INFO, format=f'%(asctime)s %(levelname)s : %(message)s')
 
 
 @app.route('/')

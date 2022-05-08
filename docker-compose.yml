@@ -3,7 +3,7 @@ services:
   app:
     image: richavarma/mlops_repo:latest
     command: >
-      sh -c "python app.py wait_for_db &&
+      sh -c "python app.py wait_for_mysqldb &&
              python social_distance_det.py &&
              python main.py runserver 0.0.0.0:5000"
     depends_on:
@@ -22,6 +22,7 @@ services:
       - "5423:5423"
     environment:
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_HOST: '%'
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro
     tty: true

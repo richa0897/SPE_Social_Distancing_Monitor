@@ -15,6 +15,9 @@ from werkzeug.utils import secure_filename
 import MySQLdb
 import matplotlib.pyplot as plt
 import pandas as pd
+import logging
+
+logging.basicConfig(filename='sdm_logfile.log', level=logging.INFO, format=f'%(asctime)s %(levelname)s : %(message)s')
 
 
 @app.route('/')
@@ -45,6 +48,8 @@ def login():
 def logout():
 	session.pop('loggedin', None)
 	session.pop('username', None)
+	if os.path.isfile(os.path.join(app.config['OUTPUT_FOLDER'], 'outputgraph.jpg')):
+		os.remove(os.path.join(app.config['OUTPUT_FOLDER'], 'outputgraph.jpg'))
 	# Redirect to login page
 	return redirect(url_for('login'))
 
@@ -80,7 +85,7 @@ def upload_video():
 @app.route('/show_violations', methods=['GET', 'POST'])
 def show_violations():
 	violations = request.form['violations']
-	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'],port=3306)
+	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'])
 	cursor=db.cursor()
 	cursor.execute('SELECT * FROM violation_db where no_of_violations >= %s and DATE(created_at) = CURDATE()',(violations,))
 	result = cursor.fetchall

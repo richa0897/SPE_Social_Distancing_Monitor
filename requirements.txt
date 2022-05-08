@@ -6,3 +6,5 @@ flask-mysqldb
 Flask-Mail
 matplotlib
 pandas
+pytest
+flask-testing

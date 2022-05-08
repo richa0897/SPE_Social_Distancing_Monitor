@@ -8,13 +8,13 @@ services:
              python main.py"
     environment:
       - DISPLAY=:0
-    volumes:
-      - /tmp/.X11-unix:/tmp/.X11-unix
-    network_mode: host
     depends_on:
       - mysqldb
     ports:
       - "5000:5000"
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+  
     
   mysqldb:
     image: mysql:5.7
@@ -27,4 +27,5 @@ services:
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro
     tty: true
+
 

@@ -29,5 +29,4 @@ COPY Args_Folder /app/Args_Folder
 RUN pip install -r requirements.txt
 RUN cp yolov3.weights /app/yolo-coco/
 
-# Run app.py when the container launches
-CMD ["./run.sh"]
+

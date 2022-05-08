@@ -12,8 +12,7 @@ EXPOSE 5002
 WORKDIR /app
 
 RUN wget https://pjreddie.com/media/files/yolov3.weights
-RUN apt-get install mysql-server
-RUN apt-get install mysql-client
+
 
 # Install any needed packages specified in requirements.txt
 COPY requirements.txt /app

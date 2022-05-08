@@ -103,7 +103,7 @@ def show_violations():
 
 @app.route('/graph', methods=['GET', 'POST'])
 def graph():
-	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'],port=3306)
+	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'])
 	cursor=db.cursor()
 	cursor.execute('SELECT TIME(created_at), no_of_violations from violation_db where DATE(created_at) = CURDATE();')
 	result = cursor.fetchall
@@ -134,7 +134,6 @@ def graph():
 	# tweak the axis labels
 	xlab = ax.xaxis.get_label()
 	ylab = ax.yaxis.get_label()
-
 	xlab.set_style('italic')
 	xlab.set_size(10)
 	ylab.set_style('italic')
@@ -143,7 +142,6 @@ def graph():
 	ttl.set_weight('bold')
 	ax.grid('on')
 	plt.savefig("static/output/outputgraph.jpg")
-	#plt.show()
 	return render_template('dashboard.html')
 
 

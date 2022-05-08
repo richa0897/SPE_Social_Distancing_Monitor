@@ -1,4 +1,4 @@
-version: '2'
+version: '3.7'
 services:  
   app:
     image: richavarma/mlops_repo:latest
@@ -6,16 +6,25 @@ services:
       sh -c "python app.py wait_for_db &&
              python social_distance_det.py &&
              python main.py runserver 0.0.0.0:5002"
-    links:
-      - db
+    depends_on:
+      - mysqldb
     ports:
       - "5002:5002"
-  
-  db:
+    networks:
+      - turingmysql
+    
+  mysqldb:
     image: mysql:5.7
+    networks:
+      - turingmysql
     ports:
       - "3200:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro
+    tty: true
+
+networks:
+  turingmysql:
+    driver: bridge

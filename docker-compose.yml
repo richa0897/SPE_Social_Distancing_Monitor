@@ -5,11 +5,11 @@ services:
     command: >
       sh -c "python app.py wait_for_db &&
              python social_distance_det.py &&
-             python main.py runserver 127.0.0.1:5002"
+             python main.py runserver 0.0.0.0:5000"
     depends_on:
       - mysqldb
     ports:
-      - "5002:5002"
+      - "5000:5000"
     networks:
       - turingmysql
     

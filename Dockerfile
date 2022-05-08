@@ -12,7 +12,11 @@ EXPOSE 5002
 WORKDIR /app
 
 RUN wget https://pjreddie.com/media/files/yolov3.weights
-RUN apt-get update && apt-get install -y firefox
+RUN echo "deb http://deb.debian.org/debian/ unstable main contrib non-free" >> /etc/apt/sources.list.d/debian.list
+RUN apt-get update
+RUN apt-get install -y --no-install-recommends firefox
+
+
 
 
 # Install any needed packages specified in requirements.txt

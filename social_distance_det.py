@@ -19,7 +19,7 @@ def add_to_db(viol_frame):
     print(max_key)
     print(type(max_key))
     final_data[max_key[0]]=max_key[1]
-    db =MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'],port=3200)
+    db =MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'],port=5423)
     cursor=db.cursor()
     for key,value in final_data.items():
         cursor.execute('Insert into violation_db values (%s,%s)',(key,value))

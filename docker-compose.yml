@@ -5,7 +5,7 @@ services:
     command: >
       sh -c "python app.py wait_for_db &&
              python social_distance_det.py &&
-             python main.py runserver 0.0.0.0:5002"
+             python main.py runserver 127.0.0.1:5002"
     depends_on:
       - mysqldb
     ports:
@@ -18,7 +18,7 @@ services:
     networks:
       - turingmysql
     ports:
-      - "0.0.0.0:3200:3306"
+      - "5423:5423"
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:

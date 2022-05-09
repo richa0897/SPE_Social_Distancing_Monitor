@@ -22,7 +22,7 @@ services:
     ports:
       - "5423:5423"
     environment:
-      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=root
       - MYSQL_ROOT_HOST=%
     volumes:
       - ./db:/docker-entrypoint-initdb.d/:ro

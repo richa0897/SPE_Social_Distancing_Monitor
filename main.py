@@ -85,7 +85,7 @@ def upload_video():
 @app.route('/show_violations', methods=['GET', 'POST'])
 def show_violations():
 	violations = request.form['violations']
-	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'])
+	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'],port=3306)
 	cursor=db.cursor()
 	cursor.execute('SELECT * FROM violation_db where no_of_violations >= %s and DATE(created_at) = CURDATE()',(violations,))
 	result = cursor.fetchall
@@ -103,7 +103,7 @@ def show_violations():
 
 @app.route('/graph', methods=['GET', 'POST'])
 def graph():
-	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'])
+	db=MySQLdb.connect(app.config['MYSQL_HOST'],app.config['MYSQL_USER'],app.config['MYSQL_PASSWORD'],app.config['MYSQL_DB'],port=3306)
 	cursor=db.cursor()
 	cursor.execute('SELECT TIME(created_at), no_of_violations from violation_db where DATE(created_at) = CURDATE();')
 	result = cursor.fetchall

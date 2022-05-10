@@ -10,8 +10,8 @@ class FlaskTest(unittest.TestCase):
     def setUp(self):        
         config= {
             'user' : 'root',
-            'password':'password',
-            'host' : 'localhost', 
+            'password':'root',
+            'host' : 'mysqldb', 
             'database' : 'spe_proj',
             'auth_plugin' : 'mysql_native_password'
         }

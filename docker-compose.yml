@@ -14,7 +14,7 @@ services:
       - "5000:5000"
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ./mylog:/sdm_logfile.log
+      - /home/richa/Desktop/final_proj/SPE_Social_Distancing_Monitor/sdm_logfile.log:/app/sdm_logfile.log
   
   mysqldb:
     image: mysql:5.7
@@ -107,7 +107,7 @@ services:
     volumes:
       - /var/run/docker.sock:/host_docker/docker.sock
       - /var/lib/docker:/host_docker/var/lib/docker
-      - ./mylog:/usr/share/filebeat/mylog
+      - /home/richa/Desktop/final_proj/SPE_Social_Distancing_Monitor/sdm_logfile.log:/usr/share/filebeat/mylog/sdm_logfile.log
       - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
     command: ["--strict.perms=false"]
     ulimits:

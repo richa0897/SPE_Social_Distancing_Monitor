@@ -11,21 +11,15 @@ EXPOSE 5000
 # creates a directory with this name if it doesn’t exist
 WORKDIR /app
 
+
+#Installing yolov3 wts
 RUN wget https://pjreddie.com/media/files/yolov3.weights
-RUN echo "deb http://deb.debian.org/debian/ unstable main contrib non-free" >> /etc/apt/sources.list.d/debian.list
-RUN apt-get update
-RUN apt-get install -y --no-install-recommends firefox
-
-
 
 
 # Install any needed packages specified in requirements.txt
 COPY requirements.txt /app
 COPY app.py /app
 COPY main.py /app
-COPY run.sh /app
-RUN chmod a+x /app/run.sh
-COPY _config.yml /app
 COPY social_distance_det.py /app
 COPY templates /app/templates
 COPY static /app/static
@@ -34,4 +28,4 @@ COPY Args_Folder /app/Args_Folder
 RUN pip install -r requirements.txt
 RUN cp yolov3.weights /app/yolo-coco/
 
-CMD ["/usr/bin/firefox"]
+

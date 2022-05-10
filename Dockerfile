@@ -21,6 +21,7 @@ COPY requirements.txt /app
 COPY app.py /app
 COPY main.py /app
 COPY social_distance_det.py /app
+COPY test.py /app
 COPY templates /app/templates
 COPY static /app/static
 COPY yolo-coco /app/yolo-coco

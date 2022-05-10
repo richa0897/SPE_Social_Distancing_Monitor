@@ -16,6 +16,14 @@ pipeline {
           echo 'building'
         }
     }
+    
+    stage('Test') {
+        steps {
+          script{
+          	sh "python test.py"
+          }
+        }
+    }
 
     stage('Build Docker_Image'){
         steps {

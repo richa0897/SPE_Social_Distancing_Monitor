@@ -19,8 +19,6 @@ class FlaskTest(unittest.TestCase):
         response = tester.get("/login")
         status_code=response.status_code
         self.assertEqual(status_code,200)
-        response = tester.post("/login", data={"username": "rvarma", "password": "rv123"})
-        assert response.location=='http://localhost/dashboard'
           
     def test_logout(self):
         tester= app.test_client(self)

@@ -1,0 +1,149 @@
+2022-05-10 18:42:12,727 WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-05-10 18:42:12,734 INFO :  * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)
+2022-05-10 18:42:12,740 INFO :  * Restarting with stat
+2022-05-10 18:42:19,494 WARNING :  * Debugger is active!
+2022-05-10 18:42:19,511 INFO :  * Debugger PIN: 133-156-853
+2022-05-10 19:03:16,654 WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-05-10 19:03:16,657 INFO :  * Running on http://172.19.0.3:5000/ (Press CTRL+C to quit)
+2022-05-10 19:03:16,662 INFO :  * Restarting with stat
+2022-05-10 19:03:22,961 WARNING :  * Debugger is active!
+2022-05-10 19:03:22,968 INFO :  * Debugger PIN: 988-429-987
+2022-05-10 19:45:40,213 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET / HTTP/1.1" 200 -
+2022-05-10 19:45:40,853 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,869 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,880 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,894 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/animate/animate.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,906 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,915 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,926 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/select2/select2.min.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,938 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,951 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/css/util.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,961 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/css/main.css HTTP/1.1" 200 -
+2022-05-10 19:45:40,972 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 -
+2022-05-10 19:45:40,986 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 -
+2022-05-10 19:45:40,995 INFO : 172.19.0.1 - - [10/May/2022 19:45:40] "GET /static/vendor/bootstrap/js/popper.js HTTP/1.1" 200 -
+2022-05-10 19:45:41,005 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-05-10 19:45:41,019 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/vendor/select2/select2.min.js HTTP/1.1" 200 -
+2022-05-10 19:45:41,029 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 -
+2022-05-10 19:45:41,039 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 -
+2022-05-10 19:45:41,055 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 -
+2022-05-10 19:45:41,068 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2022-05-10 19:45:41,768 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/images/bg-01.jpg HTTP/1.1" 200 -
+2022-05-10 19:45:41,800 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 -
+2022-05-10 19:45:41,817 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 -
+2022-05-10 19:45:41,837 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/fonts/montserrat/Montserrat-Bold.ttf HTTP/1.1" 200 -
+2022-05-10 19:45:41,870 INFO : 172.19.0.1 - - [10/May/2022 19:45:41] "GET /static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2022-05-10 19:45:42,381 INFO : 172.19.0.1 - - [10/May/2022 19:45:42] "GET /static/images/icons/favicon.ico HTTP/1.1" 200 -
+2022-05-10 19:46:01,117 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 19:46:01,223 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 19:46:01,776 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "GET /static/css/nucleo-icons.css HTTP/1.1" 200 -
+2022-05-10 19:46:01,821 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "GET /static/css/nucleo-svg.css HTTP/1.1" 200 -
+2022-05-10 19:46:01,838 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "[36mGET /static/css/argon-dashboard.css?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:46:01,872 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "[36mGET /static/js/core/popper.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:01,887 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "[36mGET /static/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:01,995 INFO : 172.19.0.1 - - [10/May/2022 19:46:01] "[36mGET /static/js/plugins/chartjs.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:02,016 INFO : 172.19.0.1 - - [10/May/2022 19:46:02] "[36mGET /static/js/plugins/smooth-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:02,025 INFO : 172.19.0.1 - - [10/May/2022 19:46:02] "[36mGET /static/js/plugins/perfect-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:02,427 INFO : 172.19.0.1 - - [10/May/2022 19:46:02] "[33mGET /static/output/outputgraph.jpg HTTP/1.1[0m" 404 -
+2022-05-10 19:46:02,437 INFO : 172.19.0.1 - - [10/May/2022 19:46:02] "GET /static/img/down-arrow-dark.svg HTTP/1.1" 200 -
+2022-05-10 19:46:02,438 INFO : 172.19.0.1 - - [10/May/2022 19:46:02] "GET /static/img/director.jpeg HTTP/1.1" 200 -
+2022-05-10 19:46:02,440 INFO : 172.19.0.1 - - [10/May/2022 19:46:02] "GET /static/img/logo-ct-dark.png HTTP/1.1" 200 -
+2022-05-10 19:46:04,230 INFO : 172.19.0.1 - - [10/May/2022 19:46:04] "GET /static/fonts/nucleo-icons.woff2 HTTP/1.1" 200 -
+2022-05-10 19:46:04,261 INFO : 172.19.0.1 - - [10/May/2022 19:46:04] "GET /static/img/chartwhitebg.jpg HTTP/1.1" 200 -
+2022-05-10 19:46:04,499 INFO : 172.19.0.1 - - [10/May/2022 19:46:04] "GET /static/img/apple-icon.png HTTP/1.1" 200 -
+2022-05-10 19:46:04,561 INFO : 172.19.0.1 - - [10/May/2022 19:46:04] "GET /static/img/favicon.png HTTP/1.1" 200 -
+2022-05-10 19:46:57,116 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "GET /upload HTTP/1.1" 200 -
+2022-05-10 19:46:57,441 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "[36mGET /static/js/core/popper.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:57,456 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "[36mGET /static/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:57,468 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "[36mGET /static/js/plugins/perfect-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:57,475 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "[36mGET /static/js/plugins/smooth-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:57,482 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "[36mGET /static/js/plugins/chartjs.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:46:57,491 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "GET /static/css/nucleo-icons.css HTTP/1.1" 200 -
+2022-05-10 19:46:57,501 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "GET /static/css/nucleo-svg.css HTTP/1.1" 200 -
+2022-05-10 19:46:57,543 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "[36mGET /static/css/argon-dashboard.css?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:46:57,552 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "[36mGET /static/js/argon-dashboard.min.js?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:46:57,919 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "GET /static/img/logo-ct-dark.png HTTP/1.1" 200 -
+2022-05-10 19:46:57,932 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "GET /static/img/director.jpeg HTTP/1.1" 200 -
+2022-05-10 19:46:57,941 INFO : 172.19.0.1 - - [10/May/2022 19:46:57] "GET /static/img/down-arrow-dark.svg HTTP/1.1" 200 -
+2022-05-10 19:46:58,221 INFO : 172.19.0.1 - - [10/May/2022 19:46:58] "GET /static/img/apple-icon.png HTTP/1.1" 200 -
+2022-05-10 19:46:58,226 INFO : 172.19.0.1 - - [10/May/2022 19:46:58] "GET /static/img/favicon.png HTTP/1.1" 200 -
+2022-05-10 19:47:26,307 INFO : 172.19.0.1 - - [10/May/2022 19:47:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 19:47:26,345 INFO : 172.19.0.1 - - [10/May/2022 19:47:26] "GET /login HTTP/1.1" 200 -
+2022-05-10 19:47:27,257 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,267 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/fonts/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,282 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,290 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/animate/animate.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,304 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/css-hamburgers/hamburgers.min.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,323 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/animsition/css/animsition.min.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,334 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/select2/select2.min.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,343 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/daterangepicker/daterangepicker.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,351 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/css/util.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,378 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/css/main.css HTTP/1.1" 200 -
+2022-05-10 19:47:27,394 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/jquery/jquery-3.2.1.min.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,420 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/bootstrap/js/popper.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,439 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/animsition/js/animsition.min.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,465 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/daterangepicker/moment.min.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,467 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,475 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/select2/select2.min.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,522 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/daterangepicker/daterangepicker.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,530 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "GET /static/vendor/countdowntime/countdowntime.js HTTP/1.1" 200 -
+2022-05-10 19:47:27,559 INFO : 172.19.0.1 - - [10/May/2022 19:47:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2022-05-10 19:47:28,040 INFO : 172.19.0.1 - - [10/May/2022 19:47:28] "GET /static/images/bg-01.jpg HTTP/1.1" 200 -
+2022-05-10 19:47:28,054 INFO : 172.19.0.1 - - [10/May/2022 19:47:28] "GET /static/fonts/poppins/Poppins-Regular.ttf HTTP/1.1" 200 -
+2022-05-10 19:47:28,096 INFO : 172.19.0.1 - - [10/May/2022 19:47:28] "[36mGET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1[0m" 304 -
+2022-05-10 19:47:28,117 INFO : 172.19.0.1 - - [10/May/2022 19:47:28] "[36mGET /static/fonts/montserrat/Montserrat-Bold.ttf HTTP/1.1[0m" 304 -
+2022-05-10 19:47:28,160 INFO : 172.19.0.1 - - [10/May/2022 19:47:28] "GET /static/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 -
+2022-05-10 19:47:28,545 INFO : 172.19.0.1 - - [10/May/2022 19:47:28] "GET /static/images/icons/favicon.ico HTTP/1.1" 200 -
+2022-05-10 19:47:32,412 INFO : 172.19.0.1 - - [10/May/2022 19:47:32] "GET /upload HTTP/1.1" 200 -
+2022-05-10 19:47:33,024 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/js/core/popper.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,034 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,047 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/js/plugins/perfect-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,057 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/js/plugins/smooth-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,070 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/js/plugins/chartjs.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,080 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/js/argon-dashboard.min.js?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,092 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/css/nucleo-icons.css HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,101 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/css/nucleo-svg.css HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,122 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/css/argon-dashboard.css?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,131 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/img/logo-ct-dark.png HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,138 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/img/director.jpeg HTTP/1.1[0m" 304 -
+2022-05-10 19:47:33,147 INFO : 172.19.0.1 - - [10/May/2022 19:47:33] "[36mGET /static/img/down-arrow-dark.svg HTTP/1.1[0m" 304 -
+2022-05-10 19:47:34,058 INFO : 172.19.0.1 - - [10/May/2022 19:47:34] "[36mGET /static/fonts/nucleo-icons.woff2 HTTP/1.1[0m" 304 -
+2022-05-10 19:48:00,579 INFO : 172.19.0.1 - - [10/May/2022 19:48:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 19:48:00,654 INFO : 172.19.0.1 - - [10/May/2022 19:48:00] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 19:48:01,246 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/js/core/popper.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,260 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,271 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/js/plugins/perfect-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,286 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/js/plugins/smooth-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,359 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/js/plugins/chartjs.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,463 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/css/nucleo-icons.css HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,475 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/css/nucleo-svg.css HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,486 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/css/argon-dashboard.css?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,495 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[33mGET /static/output/outputgraph.jpg HTTP/1.1[0m" 404 -
+2022-05-10 19:48:01,675 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[33mGET /static/output/outputgraph.jpg HTTP/1.1[0m" 404 -
+2022-05-10 19:48:01,694 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/img/logo-ct-dark.png HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,738 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/img/down-arrow-dark.svg HTTP/1.1[0m" 304 -
+2022-05-10 19:48:01,740 INFO : 172.19.0.1 - - [10/May/2022 19:48:01] "[36mGET /static/img/director.jpeg HTTP/1.1[0m" 304 -
+2022-05-10 19:48:02,218 INFO : 172.19.0.1 - - [10/May/2022 19:48:02] "[36mGET /static/img/chartwhitebg.jpg HTTP/1.1[0m" 304 -
+2022-05-10 19:48:05,820 INFO : 172.19.0.1 - - [10/May/2022 19:48:05] "GET /upload HTTP/1.1" 200 -
+2022-05-10 19:48:06,232 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/css/nucleo-icons.css HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,245 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/css/nucleo-svg.css HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,262 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/css/argon-dashboard.css?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,270 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/js/core/popper.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,282 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/js/core/bootstrap.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,313 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/js/plugins/perfect-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,324 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/js/plugins/smooth-scrollbar.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,340 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/js/plugins/chartjs.min.js HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,361 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/js/argon-dashboard.min.js?v=2.0.2 HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,531 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/img/logo-ct-dark.png HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,543 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/img/director.jpeg HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,557 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "[36mGET /static/img/down-arrow-dark.svg HTTP/1.1[0m" 304 -
+2022-05-10 19:48:06,940 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "GET /static/img/apple-icon.png HTTP/1.1" 200 -
+2022-05-10 19:48:06,953 INFO : 172.19.0.1 - - [10/May/2022 19:48:06] "GET /static/img/favicon.png HTTP/1.1" 200 -
+                                                                                                                                                                                                                                                                                                                                                                                                                             2022-05-10 21:00:44,714 WARNING :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-05-10 21:00:44,714 INFO :  * Running on http://192.168.16.3:5000/ (Press CTRL+C to quit)
+2022-05-10 21:00:44,717 INFO :  * Restarting with stat
+2022-05-10 21:00:48,674 WARNING :  * Debugger is active!
+2022-05-10 21:00:48,684 INFO :  * Debugger PIN: 427-528-270

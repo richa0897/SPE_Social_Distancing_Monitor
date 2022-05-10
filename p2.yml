@@ -4,5 +4,10 @@
   tasks:
     - name: Copy jar file to home directory
       copy:
-        src: docker-compose.yml
+        src: {{ item }}
         dest: /tmp/
+        with_items:
+          - docker-compose.yml
+          - sdm_logfile.log
+          - filebeat.yml
+

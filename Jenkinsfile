@@ -20,7 +20,7 @@ pipeline {
     stage('Test') {
         steps {
           script{
-          	sh "python test.py"
+          	sh "python.exe test.py"
           }
         }
     }

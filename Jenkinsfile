@@ -20,6 +20,7 @@ pipeline {
     stage('Test') {
         steps {
           script{
+          	sh "pip install -r requirements.txt"
           	sh "python3 test.py"
           }
         }

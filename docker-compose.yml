@@ -25,7 +25,7 @@ services:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_ROOT_HOST=%
     volumes:
-      - ./db:/docker-entrypoint-initdb.d/:ro
+      - /tmp/db:/docker-entrypoint-initdb.d/:ro
     tty: true
 
   elasticsearch:
@@ -81,7 +81,7 @@ services:
         soft: -1
         hard: -1
     volumes:
-      - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - /tmp/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
     ports:
       - 5044:5044
     links:
@@ -108,7 +108,7 @@ services:
       - /var/run/docker.sock:/host_docker/docker.sock
       - /var/lib/docker:/host_docker/var/lib/docker
       - /home/richa/Desktop/final_proj/SPE_Social_Distancing_Monitor/sdm_logfile.log:/usr/share/filebeat/mylog/sdm_logfile.log
-      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - /tmp/filebeat.yml:/usr/share/filebeat/filebeat.yml
     command: ["--strict.perms=false"]
     ulimits:
       memlock:

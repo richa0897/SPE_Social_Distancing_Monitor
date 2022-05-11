@@ -10,4 +10,4 @@
         - docker-compose.yml
         - sdm_logfile.log
         - filebeat.yml
-
+        - logstash.conf

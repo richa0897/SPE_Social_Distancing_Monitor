@@ -1,6 +1,8 @@
 ---
 - name: Pull docker image of mlops_proj
   hosts: localhost
+  become: yes
+  become_method: sudo 
   tasks:
     - name: Copy jar file to home directory
       copy:

@@ -2,7 +2,7 @@
 - name: Pull docker image of mlops_proj
   hosts: localhost
   tasks:
-    - name: Copy jar file to home directory
+    - name: Copy file to tmp directory
       copy:
         src: "{{item}}"
         dest: /tmp/

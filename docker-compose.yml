@@ -14,7 +14,7 @@ services:
       - "5000:5000"
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ./sdm_logfile.log:/app/sdm_logfile.log
+      - /tmp/sdm_logfile.log:/app/sdm_logfile.log
   
   mysqldb:
     image: mysql:5.7

@@ -25,7 +25,6 @@ services:
       - MYSQL_ROOT_PASSWORD=root
     volumes:
       - /tmp/db:/docker-entrypoint-initdb.d/:ro
-      - /tmp:/var/lib/mysql
     tty: true
 
   elasticsearch:
